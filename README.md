@@ -46,8 +46,7 @@ curl -X DELETE -H "x-api-key: 853d6a6d-ac97-44ac-aa2e-c0c83c9e1c4d" http://local
 These url's are tested in ``windows`` and ``cmder``.
 
 
-
-###Key Urls's:
+###Key Urls:
 
 * Api: http://localhost:8080
 
@@ -64,11 +63,13 @@ You can run your application in dev mode that enables live coding using:
 
 > **_NOTE:_**  Quarkus ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
-###Authentication:
+
+###Authentication :
 ApiKey is passed to the environment variable ``API_KEY`` with a value which will be used to validate the api requests.
 To access the API valid api key need to be passed in the header ``x-api-key``.
 
-##Design specifications:
+
+##Design specifications :
 * Quarkus, the Supersonic Subatomic Java Framework has been chosen to build this REST API mainly because of its asynchronous reactive programming features.
 * NoSql DynamoDb has been chosen to save the appliance state as Json and for its simplicity.
 * To save wide varieties of the appliances, Api is built based on Json, so it accepts any json representation of an appliance. 
