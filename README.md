@@ -83,5 +83,6 @@ To access the API valid api key need to be passed in the header ``x-api-key``.
 * For centralized cache(if deployed in cluster) cache like Redis would be one of the good choice for higher performance.
 * Authentication is using x-api-key. Depending upon where the application deployed and consumers, it can be changed.
 For example secretmanager/parameter store of AWS etc can be used to save the apiKey and retrieve in application. Or JWT client credentials can be used.
+* Json:Api specification can be integrated to fine-tune and granular the data retrieval.
 
 Final words, Happy to take the blame for any bugs and appreciate the pull requests for any improvements :). Thank you.
