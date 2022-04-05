@@ -18,7 +18,7 @@ Project can be up and functional with below 3 steps after cloning the repository
 ```shell script
 > ./buildDocker.sh
 ```
-2) From the root of the application, execute to build the start the application:
+2) From the root of the application, execute to start the application:
 ```
 > docker-compose up
 ```
