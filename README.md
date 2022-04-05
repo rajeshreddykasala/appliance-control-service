@@ -6,8 +6,13 @@ saves the appliance state as Json. REST API accepts Json representation of an ap
 * API specification can be found at http://localhost:8080/swagger.
 * ```./buildDocker.sh``` script can be used to build the application docker Image.
 
+## Pre requisites
+* Java 11
+* gradle
+* docker
+
 ## To Run the application
-Project can be up and functional with below 3 steps:
+Project can be up and functional with below 3 steps after cloning the repository:
 
 1) From the root of the application, execute to build the application docker image:
 ```shell script
